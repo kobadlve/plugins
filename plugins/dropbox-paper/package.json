@@ -1,0 +1,23 @@
+{
+  "id": "dropboxpaper",
+  "name": "dropbox-paper",
+  "version": "1.0.0",
+  "description": "Dropbox Paper",
+  "main": "index.js",
+  "author": "kobadlve",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.dropbox.com/paper/login",
+    "serviceName": "Dropbox Paper",
+    "message": "Dropbox Pape",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "customURL": false,
+    "hasTeamID": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
