@@ -47,21 +47,28 @@ If your service works with custom URLs, just leave this empty.
 }
 ```
 <br />
+
 ```json
 {
     "serviceURL": "https://{teamID}.slack.com"
 }
 ```
+
 * `boolean` **hasTeamID** _default: true_<br />
 Is this a team based service? If true, the interface to add the service will require a team identifier. e.g. `[teamID]`.slack.com
+
 * `boolean` **urlInputSuffix**<br />
 This option is only used in combination with `hasTeamId: true` in order to display the value of `urlInputSuffix` after the input for TeamId to make it obvious to the user what input is required from him. Eg. _&lt;TeamID&gt;.hipchat.com_
+
 * `boolean` **hasCustomUrl** _default: false_<br />
 On premise services like HipChat, Mattermost, ... require a custom URL. This option enables the user to enter a custom URL when adding the service.
+
 * `boolean` **hasNotificationSound** _default: false_<br />
 Some services provide their own notification sound. In order to avoid multiple sounds when the user receives a message set this to `true`. If the service has no built in notification sound set this to `false`.
+
 * `boolean` **hasIndirectMessages** _default: false_<br />
 Services like Slack or HipChat have direct messages e.g. a mention or message to every user in a channel (@channel) and indirect messages e.g. general discussion in a channel. If this flag is set to `true`, the user can enable/disable if there should be a badge for indirect messages.
+
 * `string` **message**<br />
 Info message that will be displayed in the add/edit service interface.
 
